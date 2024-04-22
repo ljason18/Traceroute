@@ -1,6 +1,6 @@
 import java.io.FileReader;
 
-public class App {
+public class TCPDumpParser {
     public static void main(String[] args) throws Exception {
         FileReader fileReader;
         char[] buffer = new char[100];
