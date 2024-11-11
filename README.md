@@ -1,10 +1,10 @@
 # Traceroute
 ## Project Description
-A program that parses a network trace dump generated captured by tcpdump operations. It extracts information such as each router's address on the path to the destination and the time taken to send and receive data to each router by analyzing ICMP messages.
+A program that parses a network trace dump captured by tcpdump operations. It extracts information such as each router's address on the path to the destination and the time taken to send and receive data to each router by analyzing ICMP messages. The program uses the extracted information to mimic the behavior of traceroute.
 Involves reading data from the TCP dump file, parsing packet headers, extracting destination IP addresses, protocol types, and timestamps.
 
 ## Requirements
-- Java Developement Kit (JDK)
+- Java Development Kit (JDK)
 
 Note: JDK 21 was used to develop this program, it is recommend to use the same version to ensure everything works properly.
 
